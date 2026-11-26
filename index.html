@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>J.A.R.V.I.S. Mobile</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #050B17;
+      color: #E6B95A;
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .orb {
+      width: 150px;
+      height: 150px;
+      margin: 35px auto;
+      border: 3px solid #E6B95A;
+      border-radius: 50%;
+      box-shadow: 0 0 35px #E6B95A66;
+      animation: pulse 3s infinite alternate;
+    }
+    @keyframes pulse {
+      from { transform: scale(0.95); opacity: 0.6; }
+      to { transform: scale(1.05); opacity: 1; }
+    }
+    p { color: #35C9FF; }
+    small { color: #A996EB; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>J.A.R.V.I.S.</h1>
+    <div class="orb"></div>
+    <p>Sistemas móveis inicializados.</p>
+    <p>Bem-vinda, senhorita Stark.</p>
+    <small>designed by L. Stark</small>
+  </main>
+</body>
+</html>
